@@ -1,0 +1,9 @@
+{:paths ["src/main"]
+ :deps  {org.clojure/clojure    {:mvn/version "1.10.1"}
+         ring                   {:mvn/version "1.8.1"}
+         ring/ring-defaults     {:mvn/version "0.3.2"}
+         ring-cors              {:mvn/version "0.1.13"}
+         http-kit               {:mvn/version "2.4.0"}
+         org.clojure/test.check {:mvn/version "1.1.0"}
+         compojure              {:mvn/version "1.6.2"}
+         net.sekao/odoyle-rules {:mvn/version "0.7.0"}}}
